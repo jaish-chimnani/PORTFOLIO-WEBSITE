@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Waterfall&display=swap');
+@import url(../../_globalColors.scss);
+
+.header{
+    background-color: lightgray;
+    max-width: 100%;
+    padding: 15px 20px;
+}
+.header .logo .logoHeading{
+    font-family: "Agustina Regular", 'Waterfall', cursive;
+    font-weight: bolder;
+    padding: 0px 10px;
+}
+.logo{
+    color: black;
+    text-decoration: none;
+    display: block;
+    flex: none;
+    float: left;
+    font-size: 1.5em;
+    margin-top: 10px;
+    line-height: normal;
+}
