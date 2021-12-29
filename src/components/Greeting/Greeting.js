@@ -9,6 +9,7 @@ import AnimatedGif from "../AnimatedGif/AnimatedGif";
 const Greeting=()=>{
 
     return (
+        <Fade bottom duration={1000} distance="50px">
         <div className="main-container">
             <div className="greeting-container">
                 <div>
@@ -27,6 +28,7 @@ const Greeting=()=>{
                 </div>
             </div>
         </div>
+        </Fade>
     );
 }
 export default Greeting;
