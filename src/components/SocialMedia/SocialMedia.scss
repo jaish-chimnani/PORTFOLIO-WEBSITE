@@ -1,0 +1,44 @@
+.social-media-div{
+    font-size: 2em;
+    text-align: left;
+}
+.icon-button i{
+    color: white;
+    border-radius: 2.6rem;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.3rem;
+
+    height: 2.6rem;
+    line-height: 2.6rem;
+    margin:0 5px;
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+    width: 2.6rem;
+    margin-bottom: 10px;
+    transition: 0.2s ease-in;
+}
+.linkedin{
+    background-color: #0e76a8;
+}
+.github{
+    background-color: #333;
+}
+.facebook{
+    
+    background-color: #3b5998;
+}
+.gmail{
+    
+    background-color: #ea4335;
+}
+.linkedin:hover,
+.facebook:hover,
+.github:hover,
+.gmail:hover{
+    background-color: black;
+}

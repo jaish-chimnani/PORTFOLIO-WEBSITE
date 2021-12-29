@@ -1,23 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Waterfall&display=swap');
-@import url(../../_globalColors.scss);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url("../../_globalColors.scss");
+body{
 
+    background-color: #171c28;
+}
 .header{
-    background-color: lightgray;
-    max-width: 100%;
-    padding: 15px 20px;
 }
 .header .logo .logoHeading{
     font-family: "Agustina Regular", 'Waterfall', cursive;
     font-weight: bolder;
     padding: 0px 10px;
+    font-size: 2.5em;
+    color: #146356 !important;
+
 }
 .logo{
-    color: black;
+    color: white;
     text-decoration: none;
-    display: block;
-    flex: none;
     float: left;
-    font-size: 1.5em;
-    margin-top: 10px;
+    
     line-height: normal;
+}
+.nav-item{
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px;
+    margin: 10px 40px 10px 0px;
+    line-height: normal;
+}
+.nav-item a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-item a:hover{
+    background-color: #146356;
 }
