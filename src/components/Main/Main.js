@@ -1,5 +1,7 @@
 import Header from "../Header/Header"
 import Greeting from "../Greeting/Greeting"
+import Skills from "../Skills/Skills";
+import Education from "../Education/Education";
 
 const Main=()=>{
     return (
@@ -7,6 +9,8 @@ const Main=()=>{
 
         <Header/>
         <Greeting/>
+        <Skills/>
+        <Education/>
         </div>
     )
 }

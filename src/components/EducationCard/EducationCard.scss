@@ -1,0 +1,118 @@
+.education-Card{
+    display: flex;
+    flex-direction: row;
+}
+.educationCard:hover + .edu-card-border{
+    border-color: #6fe2cf;
+    width: 100%;
+    transition: width 0.6s ease-in-out ;
+}
+.edu-card-border{
+    height: 30px;
+    width: 80%;
+    border-top: 2px solid rgba(211, 211, 211, 0.397);
+    margin-bottom: 20px;
+    transition: width 0.6s ease-in-out;
+}
+.school-name{
+    text-align: left;
+}
+.edu-card-left{
+    text-align: left;
+}
+.school-duration{
+  color: white;
+}
+.school{
+    color: #fff;
+    margin: 0px;
+    font-size: 28px;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    // overflow: hidden;
+    white-space: nowrap;
+    height: 27px;
+}
+.education-rounded-img{
+    object-fit: cover;
+    margin-right: 2rem;
+    width: 6rem;
+    height: 6rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3) ;
+    border-radius: 50%;
+
+}
+.edu-card-right{
+    max-width: 70%;
+}
+.school-subheader{
+    color: #fff;
+    font-weight: 100;
+    font-size: 19px;
+    margin: 0px;
+    padding-top: 0.8rem;
+    // line-height: normal;
+}
+.school-duration{
+    color: white;
+    font-size: 19px;
+    margin: 0px;
+    padding-top: 0.5rem;
+}
+.desc-points > ul{
+    margin-top: 0.5rem;
+}
+
+@media (max-width: 1380px) {
+    .education-card {
+      flex-direction: column;
+      padding-bottom: 10px;
+    }
+    .edu-card-right {
+      max-width: 90%;
+    }
+    .edu-card-border {
+      width: 90%;
+    }
+    .school-subHeader {
+      padding-top: 0.5rem;
+      font-size: 16px;
+    }
+    .school {
+      font-size: 20px;
+      height: 23px;
+    }
+    .school-duration {
+      font-size: 16px;
+    }
+    .education-rounded-img{
+      width: 4rem;
+      height: 4rem;
+      margin-bottom: 0.5rem;
+      margin-right: 0px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .education-card {
+      text-align: center;
+    }
+    .edu-card-right {
+      max-width: 100%;
+    }
+    .edu-card-border {
+      width: 100%;
+    }
+    .education-rounded-img{
+      margin-top: 10px;
+      width: 4rem;
+      height: 4rem;
+      margin-bottom: 1rem;
+      margin-right: 0;
+    }
+    .desc-points > ul {
+      max-width: 80%;
+      margin: auto;
+    }
+  }
+  

@@ -1,0 +1,26 @@
+.icons-container{
+    list-style: none;
+    font-size: 3rem;
+    margin: 10px 0px;
+    text-align: left;
+    padding-left: 0px;
+}
+.software-skill-inline{
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+}
+.software-skill-inline >i{
+    color: #868e96;
+}
+.software-skill-inline > i:hover{
+    color: #146356;
+}
+.software-skill-inline > p{
+    color: #868e96;
+    font-size: 15px;
+}
+.software-skill-inline >i:hover ~ p{
+    color: #146356;
+}
