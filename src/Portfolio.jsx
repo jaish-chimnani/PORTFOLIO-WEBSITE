@@ -108,8 +108,115 @@ const educationInfo={
     }
   ]
 }
-const num={
-  arr:[1,2,4,5]
+const majorProjects = {
+  title: "Projects",
+  subtitle: "",
+  projects: [
+    {
+      image: require("../src/asset/GLA.jpg"),
+      projectName: "Tune-in",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "/"
+        }
+        
+      ]
+    },
+    {
+      image: require("../src/asset/GLA.jpg"),
+      projectName: "hgsdhu",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://nextu.se/"
+        }
+      ]
+    },{
+      image: require("../src/asset/GLA.jpg"),
+      projectName: "hgsdhu",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://nextu.se/"
+        }
+      ]
+    },{
+      image: require("../src/asset/GLA.jpg"),
+      projectName: "hgsdhu",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://nextu.se/"
+        }
+      ]
+    },{
+      image: require("../src/asset/GLA.jpg"),
+      projectName: "hgsdhu",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "View Project",
+          url: "http://nextu.se/"
+        }
+      ]
+    },{
+      image: require("../src/asset/GLA.jpg"),
+      projectName: "hgsdhu",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://nextu.se/"
+        }
+      ]
+    }
+  ]
+};
+
+const achievementSection={
+  title:"Achievements & Certifications",
+  subtitle:"",
+  certificates:[
+    {title:"Java Programming Masterclass",
+    subtitle:"a 80 hr course on Java language",
+    image:require("./asset/java_course.jpg"),
+    footerLink:[
+      {
+        name:"view Certificate",
+        url:"https://www.udemy.com/certificate/UC-d7f93a2e-ceb7-447e-bf2c-42ff50362f1f/"
+      }
+    ]
+
+    },
+    {title:"Web development bootcamp",
+    subtitle:"a 80 hr course on Java language",
+    image:require("./asset/angela-web.jpg"),
+    footerLink:[
+      {
+        name:"view Certificate",
+        url:"https://www.udemy.com/certificate/UC-fa506617-74a1-4935-a49e-e25425fc28a9/"
+      }
+    ]
+
+    },
+    {title:"Java Programming Masterclass",
+    subtitle:"a 80 hr course on Java language",
+    image:require("./asset/angela-web.jpg"),
+    footerLink:[
+      {
+        name:"view Certificate",
+        url:"/"
+      }
+    ]
+
+    }
+  ]
 }
 
-export {greeting,SocialMediaLinks,skills,educationInfo,num} ;
+
+export {greeting,SocialMediaLinks,skills,educationInfo,majorProjects,achievementSection} ;
