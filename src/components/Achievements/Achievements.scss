@@ -1,0 +1,21 @@
+.achievement-main-div{
+display: flex;
+}
+
+@media (max-width: 1380px) {
+    .achievement-heading {
+      font-size: 40px;
+    }
+  }
+  @media (max-width: 768px) {
+    .achievement-heading {
+      font-size: 30px;
+      text-align: center;
+    }
+    .achievement-subtitle {
+      font-size: 16px;
+      line-height: normal;
+      text-align: center;
+    }
+  }
+  

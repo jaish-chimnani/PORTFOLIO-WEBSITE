@@ -1,7 +1,7 @@
 import { Fade } from "react-reveal";
 import { achievementSection } from "../../Portfolio";
 import AchievementCard from "../AchievementCard/AchievementCard"
-
+import "./Achievements.scss";
 const Achievements =()=>{
     return (
         <Fade bottom duration={1000} distance={"30px"}>
@@ -17,7 +17,7 @@ const Achievements =()=>{
 <div className="achievements-card-div">
 {achievementSection.certificates.map((certificate)=>(
 <div>
-<AchievementCard
+<AchievementCard 
     title={certificate.title}
     subtitle={certificate.subtitle}
     image={certificate.image}

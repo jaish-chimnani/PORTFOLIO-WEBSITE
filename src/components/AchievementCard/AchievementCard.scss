@@ -18,6 +18,7 @@
 }
 .main-div1{
   background-color: #171c28;
+  background-color: rgba(0,0,0,.2025);
   box-shadow: whitesmoke 0px 10px 30px -15px;
   padding: 1.5rem;
   border-radius: 10px;
@@ -25,16 +26,18 @@
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  margin: 40px;
 }
+
 .certificate-details{
   text-align: center;
 }
 .certificate-card:hover {
-  box-shadow: rgba(211, 211, 211, 0.397) 0px 20px 30px -10px;
-transform: scale(0.9);
 }
 .certificate-card:hover {
   box-shadow:  rgba(255, 255, 255, 0.2) 0px 20px 30px -10px;
+  box-shadow: rgba(211, 211, 211, 0.397) 0px 20px 30px -10px;
+  transform: scale(0.9);
 
 }
 .certificate-image-div {

@@ -12,10 +12,10 @@ const AchievementCard=({title,subtitle,image,footerLink})=>{
 
         </div>
         <div className="certificate-details">
-        <h5 className="card-title">
+        <h5 className="black_text card-title">
             {title}
         </h5>
-        <p className="card-subtitle">{subtitle}</p>
+        <p className="card-subtitle black_text">{subtitle}</p>
         </div>
         <div className="certificate-card-footer">
         {footerLink.map((m)=>(

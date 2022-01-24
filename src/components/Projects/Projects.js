@@ -22,8 +22,8 @@ const Projects = () => {
                             <div className="project-card project-card-dark">
                                 <img className="card-img" src={project.image} alt={project.projectName}></img>
                                 <div className="project-details">
-                                    <h5 className="card-title">{project.projectName}</h5>
-                                    <p className="card-subtitle">{project.projectDesc}</p>
+                                    <h5 className="card-title black_text">{project.projectName}</h5>
+                                    <p className="black_text card-subtitle">{project.projectDesc}</p>
                                     <div className="project-card-footer">
                                         {project.footerLink.map((link) => (
 

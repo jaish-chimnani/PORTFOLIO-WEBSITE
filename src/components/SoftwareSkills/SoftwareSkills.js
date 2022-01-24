@@ -11,7 +11,7 @@ const SoftwareSkills=()=>{
                         return (
                             <li className="software-skill-inline" key={i} name={skills.skillName}>
                             <i className={skills.fontAwesomeClassname}></i>
-                            <p>{skills.skillName}</p>
+                            <p className="black_text">{skills.skillName}</p>
                             </li>
                         )
                     })}

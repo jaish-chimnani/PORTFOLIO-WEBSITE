@@ -15,12 +15,16 @@
     color: #868e96;
 }
 .software-skill-inline > i:hover{
-    color: #146356;
+    transform: scale(1.1);
+    color: #146356 ;
+    // transition: 0.4s ease-in;
 }
 .software-skill-inline > p{
     color: #868e96;
     font-size: 15px;
 }
 .software-skill-inline >i:hover ~ p{
-    color: #146356;
+    transform: scale(1.1);
+
+    color: #146356 !important;
 }

@@ -11,6 +11,7 @@ const SocialMedia=()=>{
 <a className="icon-button" href={SocialMediaLinks.linkedin}><i className="fab fa-linkedin linkedin"></i></a>
 <a className="icon-button" href={SocialMediaLinks.gmail}><i className="fas fa-envelope gmail"></i></a>
 <a className="icon-button" href={SocialMediaLinks.facebook}><i className="fab fa-facebook facebook"></i></a>
+<a className="icon-button" href={SocialMediaLinks.instagram}><i className="fab fa-instagram instagram"></i></a>
         </div>
     )
 }

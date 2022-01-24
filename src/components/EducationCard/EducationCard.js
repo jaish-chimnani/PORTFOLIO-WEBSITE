@@ -9,7 +9,7 @@ const EducationCard = ({school}) => {
         return (
             <div>
                 {desc.map((item, i) => (
-                    <li className="subtitle" key={i}>{item}</li>
+                    <li className="black_text subtitle" key={i}>{item}</li>
                 ))}
             </div>
 
@@ -26,12 +26,12 @@ const EducationCard = ({school}) => {
                         </img>
                         <div className="edu-card-right">
                             <div className="school-name">
-                                <h5 className="school">{school.schoolName}</h5>
+                                <h5 className="black_text school">{school.schoolName}</h5>
                                 <div className="school-details">
-                                    <h5 className="school-subheader">
+                                    <h5 className="black_text school-subheader">
                                         {school.subtitle}
                                     </h5>
-                                    <p className="school-duration">
+                                    <p className="black_text school-duration">
                                         {school.duration}
                                     </p>
                                     <div className="desc-points">

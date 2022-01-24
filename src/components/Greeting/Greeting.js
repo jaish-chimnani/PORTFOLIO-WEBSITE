@@ -10,16 +10,16 @@ const Greeting=()=>{
 
     return (
         <Fade bottom duration={1000} distance="50px">
-        <div className="main-container">
+        <div className="main-container ">
             <div className="greeting-container">
                 <div>
-                    <div>
-                        <h1 className="header-text">{greeting.title}<span className="wave-emoji">{emoji("👋🏻")}</span></h1>
-                        <pre className="heading-text">{greeting.subtitle}</pre>
+                    <div className="black_text"> 
+                        <h1 className="header-text black_text">{greeting.title}<span className="wave-emoji black_text">{emoji("👋🏻")}</span></h1>
+                        <pre className="heading-text black_text">{greeting.subtitle}</pre>
                         <SocialMedia/>
                         <div className="button-greeting-div">
-                        <a className="Contact-btn main-btn" href="#Contact">Contact me</a>
-                        <a className="resumeLink-btn main-btn" href={greeting.resumeLink}>See My Resume</a>
+                        <a className="Contact-btn main-btn black_text" href="#Contact">Contact me</a>
+                        <a className="resumeLink-btn main-btn black_text" href={greeting.resumeLink}>See My Resume</a>
                         </div>
                     </div>
                 </div>

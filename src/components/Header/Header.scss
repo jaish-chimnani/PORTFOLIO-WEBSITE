@@ -3,9 +3,8 @@
 @import url("../../_globalColors.scss");
 body{
 
-    background-color: #171c28;
-}
-.header{
+    background-color: wheat;
+    color: black;
 }
 .header .logo .logoHeading{
     font-family: "Agustina Regular", 'Waterfall', cursive;
@@ -13,14 +12,30 @@ body{
     padding: 0px 10px;
     font-size: 2.5em;
     color: #146356 !important;
+    line-height: 70px;
+    // text-align: center;
+}
+.profile-img{
+    position: absolute;
+    width: 50px;
+    border-radius: 100%;
+    border: 2px solid white;
 
+    margin-top: 10px;
+    left: 50px;
 }
 .logo{
     color: white;
     text-decoration: none;
-    float: left;
-    
+    // float: left;
+    // left: 100px;
+
+    color: black;
     line-height: normal;
+}
+.navbar{
+    float: right;
+
 }
 .nav-item{
     display: inline-block;
@@ -34,7 +49,21 @@ body{
     text-decoration: none;
     padding: 10px 20px;
     font-family: 'Roboto', sans-serif;
+    color: black;
 }
 .nav-item a:hover{
     background-color: #146356;
+    
+    color: white;
 }
+.black_text{
+    color: black !important;
+}
+@media (max-width: 768px) {
+    .header{
+        text-align: center;
+    }
+    .navbar{
+        display: none;
+    }
+  }
