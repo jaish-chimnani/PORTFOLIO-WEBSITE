@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/PORTFOLIO-WEBSITE/static/css/main.37f02565.css",
-    "main.js": "/PORTFOLIO-WEBSITE/static/js/main.ad2a10cf.js",
+    "main.css": "/PORTFOLIO-WEBSITE/static/css/main.72b29599.css",
+    "main.js": "/PORTFOLIO-WEBSITE/static/js/main.eb5411fa.js",
     "static/js/787.88f7703e.chunk.js": "/PORTFOLIO-WEBSITE/static/js/787.88f7703e.chunk.js",
     "static/media/programmer.gif": "/PORTFOLIO-WEBSITE/static/media/programmer.35fdf3d8f2a46863f888.gif",
     "static/media/skills-img.gif": "/PORTFOLIO-WEBSITE/static/media/skills-img.0be22bd3fc9d56259002.gif",
     "static/media/kchsss.png": "/PORTFOLIO-WEBSITE/static/media/kchsss.0a045a9d209880346aa8.png",
     "static/media/java_course.jpg": "/PORTFOLIO-WEBSITE/static/media/java_course.14195409fd0ad54d479c.jpg",
+    "static/media/daily-chaska.png": "/PORTFOLIO-WEBSITE/static/media/daily-chaska.6ea719fdf2ac823eb20a.png",
     "static/media/angela-web.jpg": "/PORTFOLIO-WEBSITE/static/media/angela-web.516b845748eb01193ca7.jpg",
     "static/media/logo.svg": "/PORTFOLIO-WEBSITE/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/PORTFOLIO-WEBSITE/index.html",
-    "main.37f02565.css.map": "/PORTFOLIO-WEBSITE/static/css/main.37f02565.css.map",
-    "main.ad2a10cf.js.map": "/PORTFOLIO-WEBSITE/static/js/main.ad2a10cf.js.map",
+    "main.72b29599.css.map": "/PORTFOLIO-WEBSITE/static/css/main.72b29599.css.map",
+    "main.eb5411fa.js.map": "/PORTFOLIO-WEBSITE/static/js/main.eb5411fa.js.map",
     "787.88f7703e.chunk.js.map": "/PORTFOLIO-WEBSITE/static/js/787.88f7703e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.37f02565.css",
-    "static/js/main.ad2a10cf.js"
+    "static/css/main.72b29599.css",
+    "static/js/main.eb5411fa.js"
   ]
 }
